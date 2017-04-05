@@ -120,6 +120,22 @@
                 </entities>
             </core_resource>
         </models>
+        <page>
+            <layouts>
+                <bagaHomepage translate="label">
+                    <label>baga_homepage</label>
+                    <template>page/homepage.phtml</template>
+                </bagaHomepage>
+                <mybaga translate="label">
+                    <label>mybaga</label>
+                    <template>page/myBaga.phtml</template>
+                </mybaga>
+                <allMenus translate="label">
+                    <label>allMenus</label>
+                    <template>page/menus.phtml</template>
+                </allMenus>
+            </layouts>
+        </page>
     </global>
     <default>
         <system>
